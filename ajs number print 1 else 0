@@ -1,0 +1,6 @@
+num=str(input())
+ans=str((int(num[0])+int(num[1])))
+if ans in num:
+  print('1')
+else:
+  print('0')
